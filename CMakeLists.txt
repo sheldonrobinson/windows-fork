@@ -39,7 +39,7 @@ target_link_libraries(fork_test forknt GTest::gtest GTest::gtest_main)
 gtest_discover_tests(fork_test)
 endif()
 
-install(FILES ${PROJECT_SOURCE_DIR}/include/ashm.h DESTINATION include)
+install(FILES ${PROJECT_SOURCE_DIR}/include/fork.h DESTINATION include)
 install(
       TARGETS forknt
 	  EXPORT forknt-targets
